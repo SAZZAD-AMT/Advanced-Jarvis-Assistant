@@ -32,7 +32,7 @@ def TakeCommand():
 
         print(": Recognizing...")
 
-        query = r.recognize_google(audio,language='en-in')
+        query = r.recognize_google(audio,language='en-bd')
 
         print(f": Your Command : {query}\n")
 
@@ -199,7 +199,7 @@ def TaskExe():
 
                 StartLight()
 
-        elif 'corona cases' in query:
+        elif 'covid cases' in query:
 
             from Features import CoronaVirus
 

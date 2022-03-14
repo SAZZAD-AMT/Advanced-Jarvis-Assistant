@@ -3,15 +3,15 @@ from GoogleImageScrapper.GoogleImageScrapper import GoogleImageScraper
 import pyautogui
 
 def GoogleImage():
-    oo = open('E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\Data.txt','rt')
+    oo = open('Data.txt','rt')
     query = str(oo.read())
     oo.close()
-    pppp = open('E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\Data.txt','r+')
+    pppp = open('Data.txt','r+')
     pppp.truncate(0)
     pppp.close()
 
-    webdriver = "E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\webdriver\\chromedriver.exe"
-    photos = "E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\GooglePhotos\\"
+    webdriver = "C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\webdriver\\chromedriver.exe"
+    photos = "DataBase\\GooglePhotos\\"
 
     search_keys = [f"{query}"]
     number = 10

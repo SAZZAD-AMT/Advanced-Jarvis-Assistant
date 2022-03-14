@@ -2,11 +2,11 @@ import os
 from playsound import playsound
 import datetime
 
-extracted_time = open('E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\Data.txt','rt')
+extracted_time = open('Data.txt','rt')
 time = extracted_time.read()
 Time = str(time)
 
-delete_time = open("E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\Data.txt",'r+')
+delete_time = open("Data.txt",'r+')
 delete_time.truncate(0)
 delete_time.close()
 
@@ -28,7 +28,7 @@ def RingerNow(time):
 
         if current_time == Alarm_Time:
             print("Wake Up Sir , It's Time To Work .")
-            playsound("E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\Sounds\\1.mp3")
+            playsound("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\Sounds\\1.mp3")
 
         elif current_time>Alarm_Time:
             break
