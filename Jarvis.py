@@ -38,7 +38,7 @@ class Gui_Start(QMainWindow):
 
     def startFunc(self):
 
-        self.jarvis_ui.movies = QtGui.QMovie("../../../../2 - Python/3 -  Materials/G.U.I Material/B.G/1.gif")
+        self.jarvis_ui.movies = QtGui.QMovie("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\B.G\\gyhf.jpg")
 
         self.jarvis_ui.Gif.setMovie(self.jarvis_ui.movies)
 
@@ -46,7 +46,7 @@ class Gui_Start(QMainWindow):
 
 
 
-        self.jarvis_ui.movies_2 = QtGui.QMovie("../../../../2 - Python/3 -  Materials/G.U.I Material/VoiceReg/gui (4).gif")
+        self.jarvis_ui.movies_2 = QtGui.QMovie("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\VoiceReg\\Siri_1.gif")
 
         self.jarvis_ui.Gif_2.setMovie(self.jarvis_ui.movies_2)
 
@@ -55,7 +55,7 @@ class Gui_Start(QMainWindow):
 
 
 
-        self.jarvis_ui.movies_3 = QtGui.QMovie("../../../../2 - Python/3 -  Materials/G.U.I Material/ExtraGui/initial.gif")
+        self.jarvis_ui.movies_3 = QtGui.QMovie("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\ExtraGui\\initial.gif")
 
         self.jarvis_ui.Gif_3.setMovie(self.jarvis_ui.movies_3)
 

@@ -12,7 +12,7 @@ import requests
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voices',voices[0].id)
+engine.setProperty('voices',voices[1].id)
 
 def Speak(audio):
     print(" ")
@@ -121,7 +121,7 @@ def DownloadYouTube():
         video = url.streams.first()
 
 
-        video.download('E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\YouTube\\')
+        video.download('')
 
 
     Download(Link)
@@ -132,7 +132,7 @@ def DownloadYouTube():
     Speak("You Can Go And Check It Out.")
 
 
-    os.startfile('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\YouTube\\')
+    os.startfile('')
 
 def SpeedTest():
 

@@ -11,7 +11,7 @@ class Ui_SpeedTest(object):
         self.gif = QtWidgets.QLabel(self.centralwidget)
         self.gif.setGeometry(QtCore.QRect(-10, 0, 601, 341))
         self.gif.setText("")
-        self.gif.setPixmap(QtGui.QPixmap("E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\Gui Materials\\speedTest.gif"))
+        self.gif.setPixmap(QtGui.QPixmap("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\Gui Materials\\speedTest.gif"))
         self.gif.setScaledContents(True)
         self.gif.setObjectName("gif")
         SpeedTest.setCentralWidget(self.centralwidget)

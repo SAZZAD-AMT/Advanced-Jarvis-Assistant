@@ -53,7 +53,7 @@ class Ui_MainWindow(object):
 "\n"
 "")
         self.Gif.setText("")
-        self.Gif.setPixmap(QtGui.QPixmap("../../../../2 - Python/3 -  Materials/G.U.I Material/B.G/1.gif"))
+        self.Gif.setPixmap(QtGui.QPixmap("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\B.G\\gyhf.jpg"))
         self.Gif.setScaledContents(True)
         self.Gif.setObjectName("Gif")
         self.Gif_2 = QtWidgets.QLabel(self.centralwidget)
@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
 "border : 1px solid white;\n"
 "")
         self.Gif_2.setText("")
-        self.Gif_2.setPixmap(QtGui.QPixmap("../../../../2 - Python/3 -  Materials/G.U.I Material/VoiceReg/gui (4).gif"))
+        self.Gif_2.setPixmap(QtGui.QPixmap("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\VoiceReg\\Siri_1.gif"))
         self.Gif_2.setScaledContents(True)
         self.Gif_2.setObjectName("Gif_2")
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
@@ -87,7 +87,7 @@ class Ui_MainWindow(object):
 "border : 1px solid white;\n"
 "")
         self.Gif_3.setText("")
-        self.Gif_3.setPixmap(QtGui.QPixmap("../../../../2 - Python/3 -  Materials/G.U.I Material/ExtraGui/initial.gif"))
+        self.Gif_3.setPixmap(QtGui.QPixmap("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\G.U.I Material\\ExtraGui\\initial.gif"))
         self.Gif_3.setScaledContents(True)
         self.Gif_3.setObjectName("Gif_3")
         MainWindow.setCentralWidget(self.centralwidget)

@@ -10,7 +10,7 @@ from SpeedTestUi import Ui_SpeedTest
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voices',voices[0].id)
+engine.setProperty('voices',voices[1].id)
 
 def Speak(audio):
     print(" ")
@@ -19,11 +19,11 @@ def Speak(audio):
     engine.runAndWait()
     print(" ")
 
-def run_uit():
+def run_it():
 
     Speak("I Am Checking Speed Sir , Wait For A While .")
 
-    import speedtest
+    import speedtest  
 
     speed = speedtest.Speedtest()
 
@@ -35,8 +35,8 @@ def run_uit():
 
     correct_down = int(int(download)/800000)
 
-    Speak(f"Downloading Speed Is {correct_down} M B Per Second .")
-    Speak(f"Uploading Speed Is {correct_Up} M B Per Second .")
+    Speak(f"Downloading Speed Is {correct_down} KB Per Second .")
+    Speak(f"Uploading Speed Is {correct_Up} KB Per Second .")
 
     exit()
 
@@ -47,7 +47,7 @@ class MainThread(QThread):
         super(MainThread,self).__init__()
 
     def run(self):
-        run_uit()
+        run_it()
 
 StartExe = MainThread()
 
@@ -61,7 +61,7 @@ class StartExecution(QMainWindow):
 
         self.ui.setupUi(self)
 
-        self.ui.label = QMovie("E:\\YouTube Channel\\YouTube - Jarvis\\How To Make Jarvis In Python\\DataBase\\Gui Materials\\speedTest.gif")
+        self.ui.label = QMovie("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\Gui Materials\\speedTest.gif")
 
         self.ui.gif.setMovie(self.ui.label)
 
