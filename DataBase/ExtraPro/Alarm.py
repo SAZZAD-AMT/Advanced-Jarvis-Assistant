@@ -2,11 +2,11 @@ import os
 from playsound import playsound
 import datetime
 
-extracted_time = open('Data.txt','rt')
+extracted_time = open('C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt','rt')
 time = extracted_time.read()
 Time = str(time)
 
-delete_time = open("Data.txt",'r+')
+delete_time = open("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt",'r+')
 delete_time.truncate(0)
 delete_time.close()
 
