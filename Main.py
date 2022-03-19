@@ -199,7 +199,7 @@ def TaskExe():
 
                 StartLight()
 
-        elif 'covid cases' in query:
+        elif 'CoronaVirus' in query:
 
             from Features import CoronaVirus
 

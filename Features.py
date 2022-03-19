@@ -38,7 +38,7 @@ def TakeCommand():
 
         print(": Recognizing...")
 
-        query = r.recognize_google(audio,language='en-in')
+        query = r.recognize_google(audio,language='en-bd')
 
         print(f": Your Command : {query}\n")
 
@@ -57,7 +57,7 @@ def GoogleSearch(term):
 
     writeab = str(query)
 
-    oooooo = open('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\Data.txt','a')
+    oooooo = open('C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt','a')
     oooooo.write(writeab)
     oooooo.close()
 
@@ -65,7 +65,7 @@ def GoogleSearch(term):
 
     pywhatkit.search(Query)
 
-    os.startfile('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\ExtraPro\\start.py')
+    os.startfile('C:\\Users\\Hp\\OneDrive\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\ExtraPro\\start.py')
 
     if 'how to' in Query:
 
@@ -94,10 +94,10 @@ def YouTubeSearch(term):
 
 def Alarm(query):
 
-    TimeHere=  open('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\Data.txt','a')
+    TimeHere=  open('C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt','a')
     TimeHere.write(query)
     TimeHere.close()
-    os.startfile("E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\ExtraPro\\Alarm.py")
+    os.startfile("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\ExtraPro\\Alarm.py")
 
 def DownloadYouTube():
     from pytube import YouTube
@@ -136,7 +136,7 @@ def DownloadYouTube():
 
 def SpeedTest():
 
-    os.startfile("E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\Gui Programs\\SpeedTestGui.py")
+    os.startfile("C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\DataBase\\Gui Programs\\SpeedTestGui.py")
 
 def DateConverter(Query):
 
