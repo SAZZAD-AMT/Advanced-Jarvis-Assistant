@@ -1,12 +1,12 @@
 import os
-from GoogleImageScrapper.GoogleImageScrapper import GoogleImageScraper
+from GoogleImageScrapper.GoogleImageScrapper import GoogleImageScrapper
 import pyautogui
 
 def GoogleImage():
-    oo = open('Data.txt','rt')
+    oo = open('C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt','rt')
     query = str(oo.read())
     oo.close()
-    pppp = open('Data.txt','r+')
+    pppp = open('C:\\Users\\Hp\\OneDrive\\Desktop\\Python Project\\Advanced-Jarvis-Assistant\\Data.txt','r+')
     pppp.truncate(0)
     pppp.close()
 
